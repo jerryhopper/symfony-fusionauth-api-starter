@@ -103,3 +103,8 @@ FUSIONAUTH_CHECK_ISS=false
 
 ```
 
+
+# And you are done!
+
+Obviously, you need to create some entities & configure the databasesettings before you actually see some endpoints.
+
