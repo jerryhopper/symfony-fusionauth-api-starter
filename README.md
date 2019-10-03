@@ -11,11 +11,11 @@ Minimalistic example API project using FusionAuth, Symfony &amp; Api-Platform
 ```composer create-project symfony/skeleton symfony-fusionauth-api-starter```
 
 
-#Enter the project directory.
+# Enter the project directory.
 
 ```cd symfony-fusionauth-api-starter```
 
-#Install dependencies.
+# Install dependencies.
 
 ```
 composer require api
@@ -24,7 +24,7 @@ composer require jerryhopper/easy-jwt-php
 ```
 
 
-#Copy the required files.
+# Copy the required files.
 
 ```
 src/Security/User.php
@@ -32,7 +32,7 @@ src/Security/UserProvider.php
 src/Security/JwtTokenAuthenticator.php
 ```
 
-#Configure 
+# Configure 
 
 
 config/packages/api_platform.yaml
