@@ -1,7 +1,8 @@
 # symfony-fusionauth-api-starter
 Minimalistic example API project using FusionAuth, Symfony &amp; Api-Platform
 
-![Screenshot](api.png)
+![Screenshot](api.jpg)
+
 
 # How to create your own api
 
