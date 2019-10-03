@@ -24,7 +24,9 @@ composer require jerryhopper/easy-jwt-php
 ```
 
 
-# Copy the required files.
+# Copy the required files from this repository.
+
+Only 3 files (Userprovider, User and GuardAuthenticator ) are required. 
 
 ```
 src/Security/User.php
