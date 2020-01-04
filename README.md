@@ -141,3 +141,8 @@ yarn encore dev
 symfony serve
 ```
 
+
+# other 
+
+
+now you can create your new api-resource  ( https://symfonycasts.com/screencast/api-platform/api-resource# )
