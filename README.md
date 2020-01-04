@@ -15,7 +15,13 @@ https://yarnpkg.com/lang/en/docs/install/
 
 # Create your project:
 
-```composer create-project symfony/skeleton symfony-fusionauth-api-starter```
+If you use composer to create your project:
+
+```composer create-project symfony/website-skeleton:^4.4 symfony-fusionauth-api-starter```
+
+Or if you use Symfony to create a project:
+```symfony new my_project_name --version=4.4```
+
 
 
 # Enter the project directory.
