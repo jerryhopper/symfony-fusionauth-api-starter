@@ -6,6 +6,12 @@ Minimalistic example API project using FusionAuth, Symfony &amp; Api-Platform
 
 # How to create your own api
 
+# Requirements
+
+https://symfony.com/download
+
+https://yarnpkg.com/lang/en/docs/install/
+
 
 # Create your project:
 
@@ -24,6 +30,16 @@ composer require symfony/security-bundle
 composer require jerryhopper/easy-jwt-php
 ```
 
+# Install optional dependencies.
+```
+composer require symfony/webpack-encore-bundle
+composer require api-platform/admin-pack
+composer require webonyx/graphql-php
+
+
+yarn add react react-dom @api-platform/admin @babel/preset-react@^7.0.0 --dev
+
+```
 
 # Copy the required files from this repository.
 
@@ -107,4 +123,15 @@ FUSIONAUTH_CHECK_ISS=false
 # And you are done!
 
 Obviously, you need to create some entities & configure the databasesettings before you actually see some endpoints.
+
+
+
+# starting the project
+```
+php bin/console cache:clear
+
+yarn encore dev
+
+symfony serve
+```
 
